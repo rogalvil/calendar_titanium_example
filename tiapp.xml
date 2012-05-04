@@ -12,7 +12,7 @@
     <name>calendar_1_0</name>
     <version>1.0</version>
     <publisher>developer</publisher>
-    <url>http://</url>
+    <url>http://uakami.com</url>
     <description>Sample to Uakami Calendar 1.0 to Appcelerator Titanium API 1.7.2</description>
     <copyright>2012 by Rogelio Alvarado</copyright>
     <icon>appicon.png</icon>
@@ -37,6 +37,6 @@
     </iphone>
     <android xmlns:android="http://schemas.android.com/apk/res/android"/>
     <modules>
-        <module platform="iphone" version="1.8.2">com.uakami.calendar</module>
+        <module platform="iphone" version="1.0">com.uakami.calendar</module>
     </modules>
 </ti:app>
