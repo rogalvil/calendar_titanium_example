@@ -9,7 +9,7 @@ var window = Ti.UI.createWindow({
 	backgroundColor: "#dbdbdb"
 });
 
-window.open();
+window.open(); 
 
 var scrollView = Titanium.UI.createScrollView({
     contentWidth:'auto',
@@ -130,7 +130,7 @@ var sample02 = calendar.createView({
   arrowRight : "/images/sample02/arrow_right_transparent.png",
   monthHeight : 24, 
   monthTop : 5,
-  monthText : ["Januar", "Februar", "MÃ¤rz", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+  monthText : ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
   monthColor : "#593459",
   monthFont : {
     fontSize : 26,
@@ -200,7 +200,7 @@ var sample03 = calendar.createView({
   },
   dayHeight: 15,
   dayTop : 25,
-  dayText : ["Domingo", "Lunes", "Martes", "MiÃ©rcoles", "Jueves", "Viernes", "SÃ¡bado"],
+  dayText : ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
   dayColor : "white",
   dayFont : {
     fontSize : 10,
